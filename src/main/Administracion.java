@@ -12,7 +12,7 @@ public class Administracion {
         System.out.println("Gestionando pacientes");
     }
 
-    // Método para gestionar recetas
+    // Método para gestionar recetas//
     public void gestionarRecetas() {
         // Lógica para gestionar las recetas médicas
         System.out.println("Gestionando recetas");

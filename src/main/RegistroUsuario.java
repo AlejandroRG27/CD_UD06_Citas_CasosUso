@@ -13,6 +13,12 @@ public class RegistroUsuario {
 
     // TODO: Método para registrar un nuevo usuario
     public void registrarUsuario(String nombreUsuario, String contraseña) {
+        if (!usuariosRegistrados.containsKey(nombreUsuario)) {
+            usuariosRegistrados.put(nombreUsuario, contraseña);
+            System.out.println("Nombre de usuario OK");
+        }else{
+            System.out.println("O nome de usuario xa existe.");
+        }
       
     }
 
